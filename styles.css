@@ -62,6 +62,9 @@ nav ul {
     background-image: url('assets/Screenshot\ 2025-04-23\ 064824.png');
 }
 
+.power-BI {
+    background-image: url("assets/PowerBIResized.png");
+}
 
 .about-and-photo {
     display: flex;
