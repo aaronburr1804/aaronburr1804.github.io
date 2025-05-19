@@ -2,14 +2,25 @@
     font-size: 16px;
     font-family: 'Verdana', sans-serif;
 }
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 6.25rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+#name-logo {
+    font-family: 'Tangerine', serif;
 
+}
 nav {
     display: flex;
-    padding-top: 0.5rem 0rem;
+    padding-top: 0.5rem 0.5rem;
     align-items: center;
     justify-content: space-between;
-    color: white;
-    background-color: black;
+    color: black;
+    width: 100%;
 }
 
 nav a {
@@ -17,14 +28,49 @@ nav a {
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
-    color:white;
+    color:black;
+    padding: 0 0.5rem;
 }
 
 nav ul {
     margin: 0;
-    padding: 0;
+    padding: 0.5rem;
     display: flex;
     list-style: none;
     gap: 20px;
     font-size: 1rem;
+}
+
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+    height: 31.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container {
+    text-align: center;
+    color: white;
+    height: 100%;
+    display: flex;
+    width: 31%;
+}
+.power-app {
+    background-image: url('assets/Screenshot\ 2025-04-23\ 064824.png');
+}
+
+
+.about-and-photo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+#headshot {
+    width: 10rem;
+    height: auto;
 }
