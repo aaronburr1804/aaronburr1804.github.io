@@ -142,6 +142,7 @@ footer {
     height: auto;
   }
   .hero .container {
+    height: auto;
     width: 90%;
     margin-bottom: 1rem;
   }
