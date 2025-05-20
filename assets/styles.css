@@ -1,0 +1,137 @@
+* {
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+}
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 6.25rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+#name-logo {
+    font-family: 'Tangerine', serif;
+
+}
+nav {
+    display: flex;
+    padding-top: 0.5rem 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+}
+
+nav a {
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    padding: 0 0.5rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 1rem;
+}
+
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+    height: 31.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container {
+    text-align: center;
+    color: white;
+    height: 100%;
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero a, .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 1);
+    text-decoration: none;
+    color: white;
+}
+
+.power-app {
+    background-image: url('Screenshot\ 2025-04-23\ 064824.png');
+}
+
+.power-BI {
+    background-image: url("PowerBIResized.png");
+}
+
+.web-dev {
+    background-image: url("js800x1000.png");
+}
+.about-and-photo {
+    width: 80%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot {
+    width: 10rem;
+    height: auto;
+}
+
+.links {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.links ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+.links li {
+    display: flex;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family: 'Mona Sans';
+    font-weight: bold;
+    margin: 0rem 1rem;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Mona-Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.links img {
+    width: 6.25rem;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    float: right;
+}
