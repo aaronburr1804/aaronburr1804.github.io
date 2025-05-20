@@ -135,3 +135,24 @@ footer {
     display: flex;
     float: right;
 }
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+  .hero .container {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+    nav a {
+    font-size: 1.2rem;
+    padding: 0 0.25rem;
+  }
+  nav ul {
+    font-size: 1rem;
+    gap: 10px;
+  }
+
+
+}
