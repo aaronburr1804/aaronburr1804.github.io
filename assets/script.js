@@ -10,6 +10,7 @@ const enlargeImage = (event) => {
     }
     else {
     event.target.style.transition = "transform 0.5s ease";
+    event.target.style.transform = "scale(1.2)";
     event.target.style.width = "45%"
     event.target.style.zIndex = 1000;
     }
@@ -20,6 +21,8 @@ const resetImage = (event) => {
     }
     else {
         event.target.style.width = "25%";
+        event.target.style.transition = "transform 0.5s ease";
+        event.target.style.transform = "scale(1)";
     }
     event.target.style.zIndex = 1;
 };
